@@ -14,7 +14,8 @@
     "tsconfig.json": true,
     "next.config.js": true,
     "next-env.d.ts": true,
-    ".vscode": true
+    ".vscode": true,
+    ".next": true
   },
   "hide-files.files": [
     "node_modules",
@@ -25,7 +26,8 @@
     "tsconfig.json",
     "next.config.js",
     "next-env.d.ts",
-    ".vscode"
+    ".vscode",
+    ".next"
   ],
   "editor.tokenColorCustomizations": {
     "comments": "",
