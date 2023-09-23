@@ -1,9 +1,12 @@
-import React from 'react'
+import ContactWidget from "@/components/ContactWidget";
+import React from "react";
 
 const page = () => {
   return (
-    <div>contact</div>
-  )
-}
+    <div>
+      <ContactWidget />
+    </div>
+  );
+};
 
-export default page
+export default page;

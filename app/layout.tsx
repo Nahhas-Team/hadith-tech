@@ -22,6 +22,7 @@ export default function RootLayout({
         <Navbar />
         <main className="py-2">{children}</main>
         <Footer />
+        <div id="theRootElement"></div>
       </body>
     </html>
   );
