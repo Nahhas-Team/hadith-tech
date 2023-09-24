@@ -64,3 +64,17 @@
 .navbar-active > a {
   display: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Kablammo&family=Work+Sans&display=swap');
+.title-font {
+  font-family: 'Work Sans', sans-serif;
+}
+.redcolor {
+  color: #FDAD0A;
+}
+
+.svgbg {
+  background-image: url("../public/Sprinkle.svg");
+}
+.white-cafe {
+  background-color: #FFFFF3;
+}
