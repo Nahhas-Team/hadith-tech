@@ -59,7 +59,7 @@
 }
 
 .navbar-active {
-  @apply border px-3 py-2 rounded-full w-fit gap-24 fixed top-3 left-1/2 -translate-x-1/2
+  @apply border px-3 py-2 rounded-full w-fit gap-24 fixed top-3 left-1/2 -translate-x-1/2 z-30
 }
 .navbar-active > a {
   display: none;

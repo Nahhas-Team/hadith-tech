@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { buttonVariants } from "./ui/button";
+import { cn } from "@/lib/utils";
 
 const HomeHero = () => {
   return (
@@ -18,8 +19,8 @@ const HomeHero = () => {
             This podcast hosts people to talk about their experience, most
             valuable work for them and their vision
           </p>
-          <div className="grow-0 w-max">
-            <Link className={buttonVariants()} href="/episodes">
+          <div className="grow-0 w-max self-center">
+            <Link className={cn("mr-4", buttonVariants())} href="/episodes">
               start listening
             </Link>
             <Link className={buttonVariants()} href="/about">
@@ -29,8 +30,15 @@ const HomeHero = () => {
         </div>
       </div>
       {/* photo */}
-      <div><div></div></div>
-
+      <div className="grow relative">
+            <Image
+              className=" absolute right-10 top-10 "
+              src="/ideogram.jpeg"
+              alt="podcast theme"
+              width={400}
+              height={400}
+            />
+      </div>
       {/* <div className="flex rounded-md items-center w-fit mx-auto gap-8 h-12 justify-center mt-4">
         <Image
           alt="google"
