@@ -1,5 +1,5 @@
 import About from '@/components/About'
-import EmailSubscrition from '@/components/EmailSubscrition'
+import ContactWidget from '@/components/ContactWidget'
 import Episodes from '@/components/Episodes'
 import HomeHero from '@/components/HomeHero'
 
@@ -9,7 +9,7 @@ export default function Home() {
       <HomeHero />
       <Episodes />
       <About />
-      <EmailSubscrition />
+      <ContactWidget />
     </>
   )
 }

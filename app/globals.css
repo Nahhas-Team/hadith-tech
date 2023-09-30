@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -25,7 +25,7 @@
     --ring: 24.6 95% 53.1%;
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 20 14.3% 4.1%;
     --foreground: 60 9.1% 97.8%;
@@ -59,7 +59,7 @@
 }
 
 .navbar-active {
-  @apply border px-3 py-2 rounded-full w-fit gap-24 fixed top-3 left-1/2 -translate-x-1/2 z-30
+  @apply md:border md:px-3 md:py-2 md:rounded-full md:w-fit md:gap-24 md:fixed md:top-3 md:left-1/2 md:-translate-x-1/2;
 }
 .navbar-active > a {
   display: none;
