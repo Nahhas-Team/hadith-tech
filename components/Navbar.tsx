@@ -22,12 +22,15 @@ const Navbar = () => {
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const navbar = document.querySelector("nav.navbar");
+    const body = document.querySelector("body");
     console.log(latest);
 
     if (latest >= 100) {
       navbar?.classList.add("navbar-active");
+      body?.classList.add("md:mt-[88px]");
     } else {
       navbar?.classList.remove("navbar-active");
+      body?.classList.remove("md:mt-[88px]");
     }
   });
 

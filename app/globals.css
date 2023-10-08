@@ -64,3 +64,6 @@
 .navbar-active > a {
   display: none;
 }
+.calendly-spinner {
+  display: none !important;
+}
