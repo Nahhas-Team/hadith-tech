@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { buttonVariants } from "./ui/button";
 
 const Footer = () => {
   return (
@@ -47,13 +48,13 @@ const Footer = () => {
             className="duration-200 h-44 mb-4 w-auto block md:hidden"
           />
         <h1 className="font-semibold hover:bg-accent py-2 px-4 rounded-3xl cursor-pointer hidden items-center justify-center gap-1 md:flex">
-          <Image
+          {/* <Image
             src={"/logo.png"}
             alt="logo"
             width={500}
             height={600}
             className="duration-200 h-10 w-auto"
-          />
+          /> */}
           Hadith Tech
         </h1>
 
