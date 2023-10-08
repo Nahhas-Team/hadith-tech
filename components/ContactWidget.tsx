@@ -12,7 +12,7 @@ const ContactWidget = () => {
           borderRadius: 25,
           overflow: "visible",
           marginBottom: "50px",
-          // borderWidth: "1px",
+          borderWidth: "0",
         }}
         pageSettings={{
           primaryColor: "#F97316",
