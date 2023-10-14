@@ -1,0 +1,35 @@
+.container-special {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr;
+  gap: 13px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title title"
+    "podcast1 podcast2"
+    "podcast3 podcast4";
+}
+
+.title {
+  grid-area: title;
+  
+}
+.podcast1 {
+  grid-area: podcast1;
+}
+.podcast2 {
+  grid-area: podcast2;
+}
+.podcast3 {
+  grid-area: podcast3;
+}
+.podcast4 {
+  grid-area: podcast4;
+}
+.text-ac2 {
+    color: #8C8C8C;
+    fill: #8C8C8C;
+}
+.bg-w2 {
+    background-color: #FAFAFA;
+}

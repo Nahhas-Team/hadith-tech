@@ -1,6 +1,6 @@
 import About from '@/components/About'
 import ContactWidget from '@/components/ContactWidget'
-import Episodes from '@/components/Episodes'
+import Episodes from '@/components/sections/episodes/Episodes'
 import HomeHero from '@/components/sections/HomeHero'
 
 export default function Home() {
