@@ -1,15 +1,17 @@
 import About from '@/components/About'
 import ContactWidget from '@/components/ContactWidget'
 import Episodes from '@/components/Episodes'
-import HomeHero from '@/components/sections/HomeHero'
+import About_HeroSection from '@/components/sections/About/HeroSection'
+import HomeHero from '@/components/sections/Home/HomeHero'
 
 export default function Home() {
   return (
-    <>
-      <HomeHero />
-      <Episodes />
+    <div className='min-h-[calc(100vh-88px-88px-16px)] flex items-center justify-center'>
+      <About_HeroSection />
+
+      {/* <Episodes /> */}
       {/* <About /> */}
-      <ContactWidget />
-    </>
+      {/* <ContactWidget /> */}
+    </div>
   )
 }

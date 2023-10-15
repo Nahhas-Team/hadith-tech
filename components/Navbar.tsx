@@ -38,10 +38,10 @@ const Navbar = () => {
     <nav className="navbar container py-6 flex items-center justify-between rounded-b-3xl backdrop-blur z-[99999]">
       <Link
         href="/"
-        className="flex items-center justify-center font-semibold text-lg gap-1"
+        className="flex items-center justify-center font-semibold text-lg"
       >
-        <Image src={"/logo.png"} alt="logo" width={500} height={600} className="duration-200 h-8 w-auto" />
-        Hadith Tech
+        {/* <Image src={"/logo.png"} alt="logo" width={500} height={600} className="duration-200 h-8 w-auto" /> */}
+        Hadith<span className="text-primary">Tech</span>
       </Link>
       <div className="hidden md:flex gap-1 items-center justify-center">
         <Link

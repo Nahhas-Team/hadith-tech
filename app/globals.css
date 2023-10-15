@@ -59,7 +59,7 @@
 }
 
 .navbar-active {
-  @apply bg-background/25 md:border md:px-3 md:py-2 md:rounded-full md:w-fit md:gap-24 md:fixed md:top-3 md:left-1/2 md:-translate-x-1/2;
+  @apply bg-background/60 md:border md:px-3 md:py-2 md:rounded-full md:w-fit md:gap-24 md:fixed md:top-3 md:left-1/2 md:-translate-x-1/2;
 }
 .navbar-active > a {
   display: none;
