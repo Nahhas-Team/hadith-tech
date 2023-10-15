@@ -1,22 +1,22 @@
 export const LastEpisodes = [
     {
         id: 0,
-        name: "Mario",
-        episodeTitle: " Dolor sit amet consectetur,  elit. Incidunt dol"
+        name: "Someone 1",
+        episodeTitle: "I'm Episode One"
     },
     {
         id: 1,
-        name: "Mario",
-        episodeTitle: " Dolor sit amet consectetur,  elit. Incidunt dol"
+        name: "Someone 2",
+        episodeTitle: "I'm Episode Two"
     },
     {
         id: 2,
-        name: "Mario",
-        episodeTitle: " Dolor sit amet consectetur,  elit. Incidunt dol"
+        name: "Someone 3",
+        episodeTitle: "I'm Episode Three"
     },
     {
         id: 3,
-        name: "Mario",
-        episodeTitle: " Dolor sit amet consectetur,  elit. Incidunt dol"
+        name: "Someone 4",
+        episodeTitle: "I'm Episode Four"
     }
 ]

@@ -1,4 +1,4 @@
-import Episodes from '@/components/sections/episodes/Episodes'
+import Episodes from '@/components/sections/Episodes'
 import Testimonials from '@/components/Testimonials'
 import HomeHero from '@/components/sections/HomeHero'
 
