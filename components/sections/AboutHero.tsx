@@ -1,8 +1,8 @@
-import { Button } from "../../ui/button";
-import "./Home.css"
+import { Button } from "../ui/button";
+import "./sections.css"
 import React from "react";
 
-const HomeHero = () => {
+const AboutHero = () => {
   return (
     <section className="container home__container md:h-[750px]">
     <div className="Image1 relative rounded-3xl overflow-hidden">
@@ -42,4 +42,4 @@ const HomeHero = () => {
   );
 };
 
-export default HomeHero;
+export default AboutHero;

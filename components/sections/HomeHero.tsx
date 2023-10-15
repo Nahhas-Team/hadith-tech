@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import TextTransition, { presets } from 'react-text-transition';
-import "./About.css"
+import "./sections.css"
 import Image from 'next/image';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { cn } from '@/lib/utils';
@@ -16,7 +16,7 @@ const Podcast__Card = ({className, children}: {className?: string, children: Rea
   )
 }
 
-const About_HeroSection = () => {
+const HomeHero = () => {
   const [index, setIndex] = React.useState(0);
 
   React.useEffect(() => {
@@ -115,5 +115,5 @@ const About_HeroSection = () => {
   )
 }
 
-export default About_HeroSection;
+export default HomeHero;
 
