@@ -49,41 +49,17 @@ const HomeHero = () => {
       <div className="flex md:flex-row flex-col-reverse gap-4 relative items-center">
         <div className="flex-1 flex flex-col sm:px-10 py-10 gap-8 md:w-auto max-w-[480px]">
           <div className="flex flex-col gap-0">
-            <h1 className="font-black text-4xl">10+</h1>
-            <h2 className="font-semibold text-2xl">Years Of Experience</h2>
+            <h1 className="font-black text-4xl">24+</h1>
+            <h2 className="font-semibold text-2xl">Arabic Episodes</h2>
             <p className="font-normal text-muted-foreground md:max-w-[400px]">
-              Enim consequat tempor nostrud amet non irure esse ex reprehenderit es un.
-              Enim consequat tempor nostrud amet non irure esse ex reprehenderit es un.
-              </p>
+            Featuring over 24 episodes in Arabic, generously supported by GitHub Education, this podcast is dedicated to discussions on open-source, technology, and AI. With a focus on the MENA region, it aims to empower new generations to actively contribute to the world of open-source and technology.
+               </p>
           </div>
           <div className="flex flex-col gap-0">
-            <h1 className="font-black text-4xl">12K+</h1>
-            <h2 className="font-semibold text-2xl">Subscriber</h2>
+            <h1 className="font-black text-4xl">12+</h1>
+            <h2 className="font-semibold text-2xl">English Episodes</h2>
             <p className="font-normal text-muted-foreground md:max-w-[400px]">
-              Enim consequat tempor nostrud amet  nonirure esse ex reprehenderit es un.
-              Enim consequat tempor nostrud amet  nonirure esse ex reprehenderit es un.
-            </p>
-          </div>
-          <div className="flex items-center">
-          <Avatar className='border relative'>
-            <AvatarImage src="https://github.com/a0m0rajab.png" />
-            <AvatarFallback>AB</AvatarFallback>
-          </Avatar>
-          <Avatar className='border relative -left-[8px]'>
-            <AvatarImage src="https://github.com/a0m0rajab.png" />
-            <AvatarFallback>CD</AvatarFallback>
-          </Avatar>
-          <Avatar className='border relative  -left-[16px]'>
-            <AvatarImage src="https://github.com/a0m0rajab.png" />
-            <AvatarFallback>EF</AvatarFallback>
-          </Avatar>
-          <Avatar className='border relative -left-[24px]'>
-            <AvatarImage src="https://github.com/a0m0rajab.png" />
-            <AvatarFallback>EF</AvatarFallback>
-          </Avatar>
-          <Avatar className='border relative -left-[32px]'>
-            <AvatarFallback>32+</AvatarFallback>
-          </Avatar>
+            Engaging discussions with tech experts such covering diverse topics including open-source contributions, cybersecurity, machine learning, and the intersection of UNICEF with the tech industry. </p>
           </div>
         </div>
         <div className="flex-1 lg:mt-auto xl:border-b-2 border-primary relative">
@@ -99,9 +75,9 @@ const HomeHero = () => {
         <div className="xl:block hidden lg:mt-10 w-[350px]">
           <Image width={800} height={800} alt='image' src={"/logo.png"} className='w-2/3 h-auto mx-auto'/>
         </div>
-        <Podcast__Card className='absolute bottom-5 left-1/2 xl:ml-20 lg:-ml-20 md:flex hidden' >
-          <Image width={800} height={800} alt='image' src={"/lo"} className='h-20 w-20 bg-primary object-cover rounded-lg'/>
-          <div className="flex flex-col justify-between items-start pr-6">
+        <Podcast__Card className='hidden absolute bottom-5 left-1/2 xl:ml-20 lg:-ml-20 md:flex hidden' >
+          <Image width={800} height={800} alt='image' src={"/lo"} className='h-20 w-20 bg-primary object-cover rounded-lg hidden'/>
+          <div className="flex flex-col justify-between items-start pr-6 hidden">
             <div className="flex flex-col gap-0 justify-center">
               <p className='opacity-50 text-primary text-xs -mb-1 font-medium'>Economics Concepts</p>
               <h1 className='font-bold text-lg'>How to earn money</h1>
