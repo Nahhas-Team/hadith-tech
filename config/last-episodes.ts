@@ -1,22 +1,26 @@
 export const LastEpisodes = [
     {
         id: 0,
-        name: "Someone 1",
-        episodeTitle: "I'm Episode One"
+        name: "Brian Douglas (Bdougie)",
+        episodeTitle: "I'm Episode One",
+        link: "https://www.youtube.com/embed/jMh-GOtcXmY?si=kuiAijxEDXwaE8ie"
     },
     {
         id: 1,
-        name: "Someone 2",
-        episodeTitle: "I'm Episode Two"
+        name: "Bo Percival",
+        episodeTitle: "I'm Episode Two",
+        link: "https://www.youtube.com/embed/x96rYJfWVZY?si=dI-XHPJLWBEcPxJj"
     },
     {
         id: 2,
-        name: "Someone 3",
-        episodeTitle: "I'm Episode Three"
+        name: "Prof. Jay McClelland",
+        episodeTitle: "I'm Episode Three",
+        link: "https://www.youtube.com/embed/ZiyVeOFJGa0?si=ZM2vKSW5qbG86Kl1"
     },
     {
         id: 3,
-        name: "Someone 4",
-        episodeTitle: "I'm Episode Four"
+        name: "Rishit Dagli",
+        episodeTitle: "I'm Episode Four",
+        link: "https://www.youtube.com/embed/fqEL-OBsE6o?si=RgE-frGIAmvEkvff"
     }
 ]
