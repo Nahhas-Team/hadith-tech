@@ -58,7 +58,7 @@ const Footer = () => {
           Hadith Tech
         </h1>
 
-        <div className="flex flex-wrap flex-row gap-1 items-center justify-center">
+        {/* <div className="flex flex-wrap flex-row gap-1 items-center justify-center">
           <Link
             href="/"
             className="opacity-75 hover:opacity-100 hover:bg-accent px-4 rounded-3xl py-2 duration-500 active:rounded-md"
@@ -83,7 +83,7 @@ const Footer = () => {
           >
             Contact
           </Link>
-        </div>
+        </div> */}
       </footer>
     </>
   );
