@@ -35,7 +35,7 @@ const Navbar = () => {
   });
 
   return (
-    <nav className="navbar container py-6 flex items-center justify-between rounded-b-3xl backdrop-blur z-[99999]">
+    <nav className="container py-6 flex items-center justify-between rounded-b-3xl backdrop-blur z-[99999]">
       <Link
         href="/"
         className="flex items-center justify-center font-semibold text-lg"
@@ -44,30 +44,30 @@ const Navbar = () => {
         Hadith<span className="text-primary">Tech</span>
       </Link>
       <div className="hidden md:flex gap-1 items-center justify-center">
-        <Link
+        {/* <Link
           href="/"
           className="opacity-75 hover:opacity-100 hover:bg-accent px-4 rounded-3xl py-2 duration-500 active:rounded-xl"
         >
           Home
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/about"
           className="opacity-75 hover:opacity-100 hover:bg-accent px-4 rounded-3xl py-2 duration-500 active:rounded-xl"
         >
           About
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/episodes"
           className="opacity-75 hover:opacity-100 hover:bg-accent px-4 rounded-3xl py-2 duration-500 active:rounded-xl"
         >
           Episodes
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/contact"
           className="opacity-75 hover:opacity-100 hover:bg-accent px-4 rounded-3xl py-2 duration-500 active:rounded-xl"
         >
           Contact
-        </Link>
+        </Link> */}
       </div>
       <Link
         className={cn(buttonVariants(), "hidden md:flex")}
