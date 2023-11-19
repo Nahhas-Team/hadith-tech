@@ -3,9 +3,7 @@ import React from 'react'
 import TextTransition, { presets } from 'react-text-transition';
 import "./sections.css"
 import Image from 'next/image';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { cn } from '@/lib/utils';
-
 let categories = ["Technology", "Programming", "Coding"];
 
 const Podcast__Card = ({className, children}: {className?: string, children: React.ReactNode}) => {
@@ -40,7 +38,7 @@ const HomeHero = () => {
         Podcasts To Discuss All Things
         <span className="
           font-bold lg:text-5xl md:text-4xl sm:text-3xl xs:text-xl text-[12px] border-primary border-dotted sm:border-4 border-2 px-2 sm:px-4 mx-2
-          rounded-full uppercase bg-primary/10 pt-1 pb-[2px] lg:px-4 lg:py-1 relative !overflow-hidden
+          rounded-full uppercase bg-primary/10 pt-1 pb-[2px] lg:px-4 lg:py-1 relative !overflow-hidden min-w-[100px]
         ">
           <TextTransition springConfig={presets.gentle} className='!inline-flex text-primary'>{categories[index % categories.length]}</TextTransition>
         </span>
@@ -75,7 +73,7 @@ const HomeHero = () => {
         <div className="xl:block hidden lg:mt-10 w-[350px]">
           <Image width={800} height={800} alt='image' src={"/logo.png"} className='w-2/3 h-auto mx-auto'/>
         </div>
-        <Podcast__Card className='hidden absolute bottom-5 left-1/2 xl:ml-20 lg:-ml-20 md:flex hidden' >
+        <Podcast__Card className='hidden absolute bottom-5 left-1/2 xl:ml-20 lg:-ml-20 md:flex' >
           <Image width={800} height={800} alt='image' src={"/lo"} className='h-20 w-20 bg-primary object-cover rounded-lg hidden'/>
           <div className="flex flex-col justify-between items-start pr-6 hidden">
             <div className="flex flex-col gap-0 justify-center">
