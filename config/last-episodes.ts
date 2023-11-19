@@ -19,8 +19,8 @@ export const LastEpisodes = [
     },
     {
         id: 3,
-        name: "Rishit Dagli",
+        name: "Daniel Lenton",
         episodeTitle: "I'm Episode Four",
-        link: "https://www.youtube.com/embed/fqEL-OBsE6o?si=RgE-frGIAmvEkvff"
+        link: "https://www.youtube.com/embed/layth8Cyaus?si=tJnRfchKM48CGGpT"
     }
 ]
